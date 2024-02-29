@@ -17,9 +17,9 @@ spec:
         image: nextcloud
         ports:
         - containerPort: 80
-        env:
-        - name: REDIS_HOST
-          value: redis # i have added redis
+        #env:
+        #- name: REDIS_HOST
+          #value: redis # i have added redis
 
         - name: MYSQL_HOST
           value: mariadb
